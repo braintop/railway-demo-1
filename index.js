@@ -16,7 +16,9 @@ let nextId = 3
 app.get('/', (req, res) => {
   res.json({ message: 'Array API is running on Railway' })
 })
-
+app.get('/api/moshe',(req,res)=>{
+  res.json({message:'Hello Moshe'})
+})
 app.get('/api/tasks', (req, res) => {
   res.json(tasks)
 })
