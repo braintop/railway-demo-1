@@ -12,7 +12,7 @@ let tasks = [
   { id: 2, title: 'להעלות שרת ראשון', done: false }
 ]
 let nextId = 3
-
+//1
 app.get('/', (req, res) => {
   res.json({ message: 'Array API is running on Railway' })
 })
